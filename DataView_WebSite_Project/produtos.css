@@ -1,0 +1,153 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #999999;
+  padding: 20px 0px;
+}
+
+.img-header {
+  max-width:150px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+}
+
+.caixa-header {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+nav li {
+  /*border-style: solid;*/
+  margin: 0 0 0 15px;
+  display: inline;
+
+}
+/*margin: 0 0 0 15px; Lembrando que a ordem é: top, down, right left*/
+
+
+nav a {
+  text-transform: uppercase;
+  color: gold;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*text-transform: uppercase: Transforma o conteúdo em maiúsculo*/
+/*font-weight: bold: peso da fonte, negrito*/
+/*text-decoration: none; nenhuma decoracao no texto, ela deixa sublinhado*/
+
+
+.produtos {
+  /*border: solid;*/
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+
+.produtos li {
+  display: inline-block;
+  /*border: solid;*/
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  /*background: #999999;*/
+  margin: 10px 1.5%;
+  padding: 30px 10px;
+  box-sizing: border-box;
+  border-color:#999999;
+  border-width: 2px;
+  border-style: solid;
+  border-top-width: 10px;
+  border-radius: 10px;
+}
+
+.produtos li:hover {
+  border-color: gold;
+}
+
+.produtos li:hover h2 {
+  font-size: 20px;
+}
+
+
+.produtos li:active {
+  border-color: green;
+}
+
+
+.img-main {
+  max-width:250px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+}
+
+
+.produtos h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+
+.produto-descricao {
+  font-size: 15px;
+  color: #999999;
+  margin-top: 10px;
+}
+
+
+.nome-modulo {
+  font-weight: bold;
+  font-size: 15px;
+  color: #555555;
+  margin-top: 10px;
+}
+
+.div-audio {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  text-align: center;
+  /*background: #999999;*/
+  padding: 10px;
+}
+
+.img-footer {
+  max-width:100px;
+  max-height:50px;
+  width: auto;
+  height: auto;
+}
+
+.copyright {
+  color: #555555;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+
+
+
+

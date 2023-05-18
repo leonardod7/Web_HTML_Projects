@@ -1,0 +1,152 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #999999;
+  padding: 20px 0px;
+}
+
+.img-header {
+  max-width:150px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+}
+
+.caixa-header {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+nav li {
+  /*border-style: solid;*/
+  margin: 0 0 0 15px;
+  display: inline;
+
+}
+/*margin: 0 0 0 15px; Lembrando que a ordem é: top, down, right left*/
+
+
+nav a {
+  text-transform: uppercase;
+  color: gold;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*text-transform: uppercase: Transforma conteúdo em maiúsculo*/
+/*font-weight: bold: peso da fonte, negrito*/
+/*text-decoration: none; nenhuma decoracao no texto, ela deixa sublinhado*/
+
+
+main {
+  width: 940px;
+  margin: 0 auto;
+  /*border-style: solid;*/
+  /*border-color: #222222;*/
+}
+
+form {
+  margin: 40px 0;
+}
+
+
+form label, form legend {
+  display:block;
+  margin: 0 0 10px;
+  color: #555555;
+}
+
+
+/*form input {*/
+/*  display: block;*/
+/*  margin: 0 0 20px;*/
+/*  padding: 10px 25px;*/
+/*  width: 50%;*/
+/*}*/
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background-color: gold;
+  border-style: none;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: #999999;
+  color: gold;
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+
+table {
+  margin: 20px 0 40px;
+
+}
+
+thead {
+  background-color: #555555;
+  color: gold;
+  font-weight: bold;
+}
+
+/*células*/
+td,th {
+  border: 1px solid #999999;
+  padding: 8px 15px;
+}
+
+
+
+
+
+footer {
+  text-align: center;
+  /*background: #999999;*/
+  padding: 10px;
+}
+
+.img-footer {
+  max-width:100px;
+  max-height:50px;
+  width: auto;
+  height: auto;
+}
+
+.copyright {
+  color: #555555;
+  font-size: 13px;
+  margin-top: 20px;
+}
